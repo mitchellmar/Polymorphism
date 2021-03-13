@@ -5,7 +5,9 @@
 #include "Rectangle.h"
 #include <iostream>
 
-void printArea(const Shape& shape)
+template <class T>
+
+void printArea(const T& shape)
 {
     std::cout << shape.area() << "\n";
 }
