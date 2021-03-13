@@ -25,3 +25,13 @@ int main()
 }
 
 
+//Q1: From this assignment it seems that static polymorphism 
+// would be easier to implement and use as it required less
+// coding and no knowledge of inheritance.
+
+//Q2: From some more reaseach on the topic, I found that static 
+// polymorphism "collects information at compile time" where as
+// dynamic polymorphism "collects information at run time" which
+// makes methods of static polymorphism faster than dynamic. Also
+// from this project the static method seemed to result in cleaner code
+// and we were able to eliminate an entire class vs the dynamic method.
