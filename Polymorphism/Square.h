@@ -4,6 +4,7 @@ class Square : public Shape
 {
 public:
 	Square(double side);
+	double area() const override;
 
 private:
 	double myside;
