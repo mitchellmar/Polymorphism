@@ -1,11 +1,9 @@
 
-#include "Shape.h"
-
-class Rectangle : public Shape
+class Rectangle 
 {
 public:
 	Rectangle(double width, double height);
-	double area() const override;
+	double area() const;
 
 private:
 	double mywidth;

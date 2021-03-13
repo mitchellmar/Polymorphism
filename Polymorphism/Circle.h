@@ -1,11 +1,10 @@
 #pragma once
-#include"Shape.h"
 
-class Circle : public Shape
+class Circle 
 {
 public:
 	Circle(double radius);
-	double area() const override;
+	double area() const;
 
 private:
 	double myradius;
